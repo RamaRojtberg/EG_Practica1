@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ej 5 marcos</title>
+</head>
+
+<frameset rows="80px, *, 50px" border="2" frameborder="1">
+
+  <frameset cols="75%, 25%">
+    <frame src="encabezado.html" name="encabezado" scrolling="no" noresize>
+    <frame src="logo.html"       name="logo"       scrolling="no" noresize>
+  </frameset>
+
+  <frameset cols="200px, *">
+    <frame src="menu.html"      name="menu"      scrolling="auto" noresize>
+    <frame src="principal.html" name="principal" scrolling="auto">
+  </frameset>
+
+  <frame src="pie.html" name="pie" scrolling="no" noresize>
+
+  <noframes>
+    <p>El navegador no soporta marcos</p>
+  </noframes>
+
+</frameset>
+
+</html>
